@@ -17,6 +17,9 @@
 		BF6636C71D23158E00A333BD /* IACPathAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6636C21D23158E00A333BD /* IACPathAboutViewController.m */; };
 		BF6636C81D23158E00A333BD /* IACPathBrokenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6636C41D23158E00A333BD /* IACPathBrokenViewController.m */; };
 		BF6636C91D23158E00A333BD /* IACPathFixedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6636C61D23158E00A333BD /* IACPathFixedViewController.m */; };
+		BF868AF91D243A6800E1B5A5 /* IACChildrenAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF868AF41D243A6800E1B5A5 /* IACChildrenAboutViewController.m */; };
+		BF868AFA1D243A6800E1B5A5 /* IACChildrenBrokenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF868AF61D243A6800E1B5A5 /* IACChildrenBrokenViewController.m */; };
+		BF868AFB1D243A6800E1B5A5 /* IACChildrenFixedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF868AF81D243A6800E1B5A5 /* IACChildrenFixedViewController.m */; };
 		EE6123F91B208F5000E94A7E /* DQA11y.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE1E8261B1E126600BA4BF6 /* DQA11y.framework */; };
 		EEAC95FC1B2F45D200EAD565 /* IACModalDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAC95FB1B2F45D200EAD565 /* IACModalDialogViewController.m */; };
 		EEAFD2A71B272A2700E23EAB /* FormsValidation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAFD2A21B272A2700E23EAB /* FormsValidation.storyboard */; };
@@ -115,6 +118,12 @@
 		BF6636C41D23158E00A333BD /* IACPathBrokenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IACPathBrokenViewController.m; path = "DequeU/Basic Demos/Paths/IACPathBrokenViewController.m"; sourceTree = "<group>"; };
 		BF6636C51D23158E00A333BD /* IACPathFixedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IACPathFixedViewController.h; path = "DequeU/Basic Demos/Paths/IACPathFixedViewController.h"; sourceTree = "<group>"; };
 		BF6636C61D23158E00A333BD /* IACPathFixedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IACPathFixedViewController.m; path = "DequeU/Basic Demos/Paths/IACPathFixedViewController.m"; sourceTree = "<group>"; };
+		BF868AF31D243A6800E1B5A5 /* IACChildrenAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IACChildrenAboutViewController.h; sourceTree = "<group>"; };
+		BF868AF41D243A6800E1B5A5 /* IACChildrenAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACChildrenAboutViewController.m; sourceTree = "<group>"; };
+		BF868AF51D243A6800E1B5A5 /* IACChildrenBrokenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IACChildrenBrokenViewController.h; sourceTree = "<group>"; };
+		BF868AF61D243A6800E1B5A5 /* IACChildrenBrokenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACChildrenBrokenViewController.m; sourceTree = "<group>"; };
+		BF868AF71D243A6800E1B5A5 /* IACChildrenFixedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IACChildrenFixedViewController.h; sourceTree = "<group>"; };
+		BF868AF81D243A6800E1B5A5 /* IACChildrenFixedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACChildrenFixedViewController.m; sourceTree = "<group>"; };
 		EEAC95FA1B2F45D200EAD565 /* IACModalDialogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IACModalDialogViewController.h; sourceTree = "<group>"; };
 		EEAC95FB1B2F45D200EAD565 /* IACModalDialogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACModalDialogViewController.m; sourceTree = "<group>"; };
 		EEAC96181B30879200EAD565 /* IACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IACViewController.h; path = "DequeU/IAC Files/IAC Controllers/IACViewController.h"; sourceTree = "<group>"; };
@@ -312,6 +321,7 @@
 				EEAFD3A21B274D2E00E23EAB /* Dynamic Type */,
 				EEAFD2AA1B272A3A00E23EAB /* Dynamic Notifications */,
 				BF6636BA1D23144B00A333BD /* Accessibiltiy Paths */,
+				BF868AF21D243A6800E1B5A5 /* Grouped Children */,
 				EEAFD2BA1B272A3A00E23EAB /* Modal Dialog */,
 				EEAFD2C31B272A3A00E23EAB /* Top Bar Contrast */,
 				EEAFD2A11B272A2700E23EAB /* Forms Validation */,
@@ -393,6 +403,20 @@
 				BF6636C61D23158E00A333BD /* IACPathFixedViewController.m */,
 			);
 			name = "Accessibiltiy Paths";
+			sourceTree = "<group>";
+		};
+		BF868AF21D243A6800E1B5A5 /* Grouped Children */ = {
+			isa = PBXGroup;
+			children = (
+				BF868AF31D243A6800E1B5A5 /* IACChildrenAboutViewController.h */,
+				BF868AF41D243A6800E1B5A5 /* IACChildrenAboutViewController.m */,
+				BF868AF51D243A6800E1B5A5 /* IACChildrenBrokenViewController.h */,
+				BF868AF61D243A6800E1B5A5 /* IACChildrenBrokenViewController.m */,
+				BF868AF71D243A6800E1B5A5 /* IACChildrenFixedViewController.h */,
+				BF868AF81D243A6800E1B5A5 /* IACChildrenFixedViewController.m */,
+			);
+			name = "Grouped Children";
+			path = "DequeU/Basic Demos/Grouped Children";
 			sourceTree = "<group>";
 		};
 		EEAFD2A11B272A2700E23EAB /* Forms Validation */ = {
@@ -775,8 +799,10 @@
 				EEAFD2A81B272A2700E23EAB /* IACFormsValidationBrokenViewController.m in Sources */,
 				EEAFD3AB1B274D7F00E23EAB /* IACDynamicTypeFixedViewController.m in Sources */,
 				EEAFD3151B272BF200E23EAB /* IACAboutDequeViewController.m in Sources */,
+				BF868AFA1D243A6800E1B5A5 /* IACChildrenBrokenViewController.m in Sources */,
 				EEAFD30F1B272B9D00E23EAB /* IACUtilities.m in Sources */,
 				EEAFD38B1B274C7500E23EAB /* IACModalDialogAboutViewController.m in Sources */,
+				BF868AF91D243A6800E1B5A5 /* IACChildrenAboutViewController.m in Sources */,
 				EEAFD3971B274CBE00E23EAB /* IACFormsValidationAboutViewController.m in Sources */,
 				EEAFD3911B274C9D00E23EAB /* IACTopBarContrastBrokenViewController.m in Sources */,
 				EEAFD2CC1B272A3A00E23EAB /* IACDynamicNotificationsFixedViewController.m in Sources */,
@@ -795,6 +821,7 @@
 				EEAFD2D31B272A3A00E23EAB /* IACModalDialogFixedViewController.m in Sources */,
 				EEAFD3061B272B8900E23EAB /* IACSplitViewController.m in Sources */,
 				EEAFD2A91B272A2700E23EAB /* IACFormsValidationFixedViewController.m in Sources */,
+				BF868AFB1D243A6800E1B5A5 /* IACChildrenFixedViewController.m in Sources */,
 				EEAFD3941B274CAC00E23EAB /* IACTopBarContrastFixedViewController.m in Sources */,
 				EEAFD3091B272B8900E23EAB /* IACViewController.m in Sources */,
 				EEAFD2D11B272A3A00E23EAB /* CustomIOS7AlertView.m in Sources */,
