@@ -42,7 +42,7 @@
     
     _buttonAmazingGrace.accessibilityPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(_buttonAmazingGrace.frame.origin.x+114, _buttonAmazingGrace.frame.origin.y+54, _buttonAmazingGrace.frame.size.width*2, _buttonAmazingGrace.frame.size.height+64) cornerRadius: 4];
     
-    _buttonSinginInTheRain.accessibilityPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(_buttonSinginInTheRain.frame.origin.x+245, _buttonSinginInTheRain.frame.origin.y+54, _buttonSinginInTheRain.frame.size.width*1.4, _buttonSinginInTheRain.frame.size.height+74) cornerRadius: 4];
+    _buttonSinginInTheRain.accessibilityPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(_buttonSinginInTheRain.frame.origin.x+230, _buttonSinginInTheRain.frame.origin.y+46, _buttonSinginInTheRain.frame.size.width*1.4, _buttonSinginInTheRain.frame.size.height+74) cornerRadius: 4];
 }
 
 - (NSString*)playMusic:(id)sender {
