@@ -1,23 +1,24 @@
 //
-//  DQFixedHintViewController.m
-//  Deque University for iOS
+//  IACPathAboutViewController.m
+//  DequeU
 //
-//  Created by Catherine Fisher on 2/12/14.
-//  Copyright (c) 2014 Deque Systems. All rights reserved.
+//  Created by Nicholas Andrew Shahin on 6/28/16.
+//  Copyright © 2016 Deque Systems. All rights reserved.
 //
 
-#import "IACHintFixedViewController.h"
+
+#import "IACPathBrokenViewController.h"
 #import "IACUtilities.h"
 #import "IACConstants.h"
 #import <AudioToolbox/AudioToolbox.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface IACHintFixedViewController () {
+@interface IACPathBrokenViewController () {
     AVAudioPlayer* _AudioPlayer;
 }
 @end
 
-@implementation IACHintFixedViewController
+@implementation IACPathBrokenViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,7 +28,7 @@
     
     [_buttonAmazingGrace setAccessibilityHint:NSLocalizedString(@"PLAYS_MUSIC", nil)];
     [_buttonAmazingGrace addTarget:self action:@selector(playMusic:) forControlEvents:UIControlEventTouchUpInside];
-
+    
     
     [_buttonSinginInTheRain setAccessibilityHint:NSLocalizedString(@"PLAYS_MUSIC", nil)];
     [_buttonSinginInTheRain addTarget:self action:@selector(playMusic:) forControlEvents:UIControlEventTouchUpInside];

@@ -1,23 +1,25 @@
 //
-//  DQFixedHintViewController.m
-//  Deque University for iOS
+//  IACPathAboutViewController.m
+//  DequeU
 //
-//  Created by Catherine Fisher on 2/12/14.
-//  Copyright (c) 2014 Deque Systems. All rights reserved.
+//  Created by Nicholas Andrew Shahin on 6/28/16.
+//  Copyright © 2016 Deque Systems. All rights reserved.
 //
 
-#import "IACHintFixedViewController.h"
+
+#import "IACPathFixedViewController.h"
 #import "IACUtilities.h"
 #import "IACConstants.h"
 #import <AudioToolbox/AudioToolbox.h>
 #import <AVFoundation/AVFoundation.h>
+@import UIKit;
 
-@interface IACHintFixedViewController () {
+@interface IACPathFixedViewController () {
     AVAudioPlayer* _AudioPlayer;
 }
 @end
 
-@implementation IACHintFixedViewController
+@implementation IACPathFixedViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,11 +29,16 @@
     
     [_buttonAmazingGrace setAccessibilityHint:NSLocalizedString(@"PLAYS_MUSIC", nil)];
     [_buttonAmazingGrace addTarget:self action:@selector(playMusic:) forControlEvents:UIControlEventTouchUpInside];
-
+    
     
     [_buttonSinginInTheRain setAccessibilityHint:NSLocalizedString(@"PLAYS_MUSIC", nil)];
     [_buttonSinginInTheRain addTarget:self action:@selector(playMusic:) forControlEvents:UIControlEventTouchUpInside];
+
+    _buttonStarSpangledBanner.accessibilityPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(_buttonStarSpangledBanner.frame.origin.x-153, _buttonStarSpangledBanner.frame.origin.y+74, _buttonStarSpangledBanner.frame.size.width+190, _buttonStarSpangledBanner.frame.size.height) cornerRadius: 4];
     
+    _buttonAmazingGrace.accessibilityPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(_buttonAmazingGrace.frame.origin.x-153, _buttonAmazingGrace.frame.origin.y+74, _buttonAmazingGrace.frame.size.width+140, _buttonAmazingGrace.frame.size.height) cornerRadius: 4];
+    
+    _buttonSinginInTheRain.accessibilityPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(_buttonSinginInTheRain.frame.origin.x-153, _buttonSinginInTheRain.frame.origin.y+74, _buttonSinginInTheRain.frame.size.width+158, _buttonSinginInTheRain.frame.size.height) cornerRadius: 4];
 }
 
 - (NSString*)playMusic:(id)sender {

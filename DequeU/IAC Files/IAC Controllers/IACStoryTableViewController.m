@@ -70,6 +70,7 @@
     [basicDemos addObject:[storyBoard instantiateViewControllerWithIdentifier:@"TraitStory"]];
     [basicDemos addObject:[storyBoard instantiateViewControllerWithIdentifier:@"NestedA11yStory"]];
     [basicDemos addObject:[storyBoard instantiateViewControllerWithIdentifier:@"DynamicTypeStory"]];
+    [basicDemos addObject:[storyBoard instantiateViewControllerWithIdentifier:@"AccessibilityPathsStory"]];
     
     UIStoryboard* dynamic = [UIStoryboard storyboardWithName:@"DynamicNotifications" bundle:nil];
     [basicDemos addObject:[dynamic instantiateViewControllerWithIdentifier:@"DynamicNotifications"]];
