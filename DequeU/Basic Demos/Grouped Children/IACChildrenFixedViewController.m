@@ -38,11 +38,11 @@
     [_buttonSinginInTheRain setAccessibilityHint:NSLocalizedString(@"PLAYS_MUSIC", nil)];
     [_buttonSinginInTheRain addTarget:self action:@selector(playMusic:) forControlEvents:UIControlEventTouchUpInside];
 
-    _buttonStarSpangledBanner.accessibilityPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(_buttonStarSpangledBanner.frame.origin.x+23, _buttonStarSpangledBanner.frame.origin.y+50, _buttonStarSpangledBanner.frame.size.width*2, _buttonStarSpangledBanner.frame.size.height + 64) cornerRadius: 4];
+    _buttonStarSpangledBanner.accessibilityPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(_buttonStarSpangledBanner.frame.origin.x-5, _buttonStarSpangledBanner.frame.origin.y+15, _buttonStarSpangledBanner.frame.size.width+37, _buttonStarSpangledBanner.frame.size.height + 88) cornerRadius: 4];
     
-    _buttonAmazingGrace.accessibilityPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(_buttonAmazingGrace.frame.origin.x+114, _buttonAmazingGrace.frame.origin.y+54, _buttonAmazingGrace.frame.size.width*2, _buttonAmazingGrace.frame.size.height+64) cornerRadius: 4];
+    _buttonAmazingGrace.accessibilityPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(_buttonAmazingGrace.frame.origin.x+93, _buttonAmazingGrace.frame.origin.y+14, _buttonAmazingGrace.frame.size.width+37, _buttonAmazingGrace.frame.size.height+92) cornerRadius: 4];
     
-    _buttonSinginInTheRain.accessibilityPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(_buttonSinginInTheRain.frame.origin.x+230, _buttonSinginInTheRain.frame.origin.y+46, _buttonSinginInTheRain.frame.size.width*1.4, _buttonSinginInTheRain.frame.size.height+74) cornerRadius: 4];
+    _buttonSinginInTheRain.accessibilityPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(_buttonSinginInTheRain.frame.origin.x+200, _buttonSinginInTheRain.frame.origin.y+14, _buttonSinginInTheRain.frame.size.width+20, _buttonSinginInTheRain.frame.size.height+90) cornerRadius: 4];
 }
 
 - (NSString*)playMusic:(id)sender {
