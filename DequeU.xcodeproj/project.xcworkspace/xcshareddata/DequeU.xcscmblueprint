@@ -4,13 +4,17 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "58AAB0051E2B4EEDF1845A552012E6D0EBAD9127" : 9223372036854775807,
+    "E3C69990BA1F6203B7ABC6BA488D805EDF9875C7" : 9223372036854775807,
     "5F83BCCCF3F848F790DD2839AFD45C087B1EEC77" : 0,
     "2A6457E42AF9C51B6332744CA11FAD01E8A6C69B" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EF91A935-9FFA-41C6-8217-620BE5B7E96C",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "5F83BCCCF3F848F790DD2839AFD45C087B1EEC77" : "Deque-University-for-iOS",
-    "2A6457E42AF9C51B6332744CA11FAD01E8A6C69B" : "Deque-University-for-iOSiOSA11yFramework"
+    "58AAB0051E2B4EEDF1845A552012E6D0EBAD9127" : "Axe-iOS\/ObjectMapper\/",
+    "E3C69990BA1F6203B7ABC6BA488D805EDF9875C7" : "Axe-iOS\/",
+    "5F83BCCCF3F848F790DD2839AFD45C087B1EEC77" : "Accessibility-101\/",
+    "2A6457E42AF9C51B6332744CA11FAD01E8A6C69B" : "Accessibility-101\/iOSA11yFramework\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "DequeU",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -22,9 +26,19 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2A6457E42AF9C51B6332744CA11FAD01E8A6C69B"
     },
     {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Hearst-DD\/ObjectMapper.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "58AAB0051E2B4EEDF1845A552012E6D0EBAD9127"
+    },
+    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dequelabs\/Deque-University-for-iOS.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5F83BCCCF3F848F790DD2839AFD45C087B1EEC77"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dequelabs\/Axe-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E3C69990BA1F6203B7ABC6BA488D805EDF9875C7"
     }
   ]
 }

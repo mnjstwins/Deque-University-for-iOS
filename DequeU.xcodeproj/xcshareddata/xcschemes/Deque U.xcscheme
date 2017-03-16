@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -28,8 +28,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A9D013D918A2DD4700DC6496"
-               BuildableName = "Accessibility 101Tests.xctest"
+               BlueprintIdentifier = "0FFBA0B71E79C2E6001F9C2E"
+               BuildableName = "DequeUTests.xctest"
                BlueprintName = "DequeUTests"
                ReferencedContainer = "container:DequeU.xcodeproj">
             </BuildableReference>
@@ -46,8 +46,8 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A9D013D918A2DD4700DC6496"
-               BuildableName = "Accessibility 101Tests.xctest"
+               BlueprintIdentifier = "0FFBA0B71E79C2E6001F9C2E"
+               BuildableName = "DequeUTests.xctest"
                BlueprintName = "DequeUTests"
                ReferencedContainer = "container:DequeU.xcodeproj">
             </BuildableReference>

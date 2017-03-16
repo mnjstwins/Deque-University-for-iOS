@@ -29,17 +29,12 @@
     //[_DogDisplay setAccessibilityLabel:@"Dog"];
     //[_FishDisplay setAccessibilityLabel:@"Fish"];
     
-    //[_CatDisplay setAccessibilityHint:@"Modify image display"];
-    //[_FishDisplay setAccessibilityHint:@"Modify image display"];
-    //[_DogDisplay setAccessibilityHint:@"Modify image display"];
-    
     [_CatDisplay addTarget:self action:@selector(displayImage:) forControlEvents:UIControlEventTouchDown];
     [_DogDisplay addTarget:self action:@selector(displayImage:) forControlEvents:UIControlEventTouchDown];
     [_FishDisplay addTarget:self action:@selector(displayImage:) forControlEvents:UIControlEventTouchDown];
         
     [_ImageView setImage:[UIImage imageNamed:@"dog"]];
-    [_ImageView setAccessibilityHint:@""]; // Sometimes hints aren't needed, this silences the warning, letting the analyzer
-                                           // know we are concsiously setting an empty hint.
+    [_ImageView setAccessibilityHint:@""]; // Sometimes hints aren't needed, this silences the warning, letting the analyzer know we don't need a hint here.
     
     /**
      * You may notice that on the next line "DOG" is an NSLocalized string.
