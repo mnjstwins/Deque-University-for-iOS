@@ -10,26 +10,27 @@
 		0F0DEBF81E79DA0D00B80E96 /* DQA11y.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0DEBF51E79D9C600B80E96 /* DQA11y.framework */; };
 		0F158F2818D223E500B34CC7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F158F2718D223E500B34CC7 /* AudioToolbox.framework */; };
 		0F658B071BC57745000650C3 /* InformativeColor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F658B061BC57745000650C3 /* InformativeColor.storyboard */; };
+		0F8C7A951E7B24A400C610C8 /* IACDynamicNotificationsBrokenViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A7E1E7B24A400C610C8 /* IACDynamicNotificationsBrokenViewController_test.m */; };
+		0F8C7A961E7B24A400C610C8 /* IACDynamicNotificationsFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A7F1E7B24A400C610C8 /* IACDynamicNotificationsFixedViewController_test.m */; };
+		0F8C7A971E7B24A400C610C8 /* IACFormValidationBrokenViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A811E7B24A400C610C8 /* IACFormValidationBrokenViewController_test.m */; };
+		0F8C7A981E7B24A400C610C8 /* IACFormValidationFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A821E7B24A400C610C8 /* IACFormValidationFixedViewController_test.m */; };
+		0F8C7A991E7B24A400C610C8 /* IACHintBrokenViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A841E7B24A400C610C8 /* IACHintBrokenViewController_test.m */; };
+		0F8C7A9A1E7B24A400C610C8 /* IACHintFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A851E7B24A400C610C8 /* IACHintFixedViewController_test.m */; };
+		0F8C7A9B1E7B24A400C610C8 /* IACLabelBrokenViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A871E7B24A400C610C8 /* IACLabelBrokenViewController_test.m */; };
+		0F8C7A9C1E7B24A400C610C8 /* IACLabelFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A881E7B24A400C610C8 /* IACLabelFixedViewController_test.m */; };
+		0F8C7A9D1E7B24A400C610C8 /* SimpleAccessibilityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A891E7B24A400C610C8 /* SimpleAccessibilityTest.swift */; };
+		0F8C7A9E1E7B24A400C610C8 /* IACModalDialogBrokenViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A8B1E7B24A400C610C8 /* IACModalDialogBrokenViewController_test.m */; };
+		0F8C7A9F1E7B24A400C610C8 /* IACModalDialogFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A8C1E7B24A400C610C8 /* IACModalDialogFixedViewController_test.m */; };
+		0F8C7AA01E7B24A400C610C8 /* IACTraitsBrokenViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A8E1E7B24A400C610C8 /* IACTraitsBrokenViewController_test.m */; };
+		0F8C7AA11E7B24A400C610C8 /* IACTraitsFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A8F1E7B24A400C610C8 /* IACTraitsFixedViewController_test.m */; };
+		0F8C7AA21E7B24A400C610C8 /* IACUpdatingContentBrokenViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A911E7B24A400C610C8 /* IACUpdatingContentBrokenViewController_test.m */; };
+		0F8C7AA31E7B24A400C610C8 /* IACUpdatingContentFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A921E7B24A400C610C8 /* IACUpdatingContentFixedViewController_test.m */; };
+		0F8C7AA41E7B24A400C610C8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F8C7A941E7B24A400C610C8 /* Info.plist */; };
 		0FEB4B8D1AC9C73300F372F8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEB4B8C1AC9C73300F372F8 /* CoreData.framework */; };
 		0FEB4B8F1AC9C73E00F372F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEB4B8E1AC9C73E00F372F8 /* SystemConfiguration.framework */; };
 		0FFBA0A61E79C0E0001F9C2E /* A11yAnalysisFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F63002E1E79858A00FAB691 /* A11yAnalysisFramework.framework */; };
 		0FFBA0AD1E79C166001F9C2E /* A11yAnalysisFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F63002E1E79858A00FAB691 /* A11yAnalysisFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0FFBA0C21E79C3A2001F9C2E /* IACLabelBrokenViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAFD35B1B27348A00E23EAB /* IACLabelBrokenViewController_test.m */; };
-		0FFBA0C31E79C3A2001F9C2E /* IACLabelFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAFD35C1B27348A00E23EAB /* IACLabelFixedViewController_test.m */; };
 		0FFBA0C41E79C3CA001F9C2E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAFD2C21B272A3A00E23EAB /* Storyboard.storyboard */; };
-		0FFBA0C71E79CB98001F9C2E /* SimpleAccessibilityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFBA0C61E79CB98001F9C2E /* SimpleAccessibilityTest.swift */; };
-		0FFBA0D21E79D8AF001F9C2E /* IACHintBrokenViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAFD3581B27348A00E23EAB /* IACHintBrokenViewController_test.m */; };
-		0FFBA0D31E79D8AF001F9C2E /* IACHintFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAFD3591B27348A00E23EAB /* IACHintFixedViewController_test.m */; };
-		0FFBA0D41E79D8AF001F9C2E /* IACTraitsBrokenViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAFD3611B27348A00E23EAB /* IACTraitsBrokenViewController_test.m */; };
-		0FFBA0D51E79D8AF001F9C2E /* IACTraitsFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAFD3621B27348A00E23EAB /* IACTraitsFixedViewController_test.m */; };
-		0FFBA0D61E79D8AF001F9C2E /* IACDynamicNotificationsBrokenViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAFD3521B27348A00E23EAB /* IACDynamicNotificationsBrokenViewController_test.m */; };
-		0FFBA0D71E79D8AF001F9C2E /* IACDynamicNotificationsFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAFD3531B27348A00E23EAB /* IACDynamicNotificationsFixedViewController_test.m */; };
-		0FFBA0D81E79D8AF001F9C2E /* IACModalDialogBrokenViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAFD35E1B27348A00E23EAB /* IACModalDialogBrokenViewController_test.m */; };
-		0FFBA0D91E79D8AF001F9C2E /* IACModalDialogFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAFD35F1B27348A00E23EAB /* IACModalDialogFixedViewController_test.m */; };
-		0FFBA0DA1E79D8AF001F9C2E /* IACFormValidationBrokenViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAFD3551B27348A00E23EAB /* IACFormValidationBrokenViewController_test.m */; };
-		0FFBA0DB1E79D8AF001F9C2E /* IACFormValidationFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAFD3561B27348A00E23EAB /* IACFormValidationFixedViewController_test.m */; };
-		0FFBA0DC1E79D8AF001F9C2E /* IACUpdatingContentBrokenViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDE4E241B3AF3E2003B6362 /* IACUpdatingContentBrokenViewController_test.m */; };
-		0FFBA0DD1E79D8AF001F9C2E /* IACUpdatingContentFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDE4E261B3AF3F6003B6362 /* IACUpdatingContentFixedViewController_test.m */; };
 		A9D013C318A2DD4700DC6496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D013C218A2DD4700DC6496 /* Foundation.framework */; };
 		A9D013C518A2DD4700DC6496 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D013C418A2DD4700DC6496 /* CoreGraphics.framework */; };
 		A9D013C718A2DD4700DC6496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D013C618A2DD4700DC6496 /* UIKit.framework */; };
@@ -147,11 +148,26 @@
 		0F158F2718D223E500B34CC7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		0F6300271E79858A00FAB691 /* A11yAnalysisFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = A11yAnalysisFramework.xcodeproj; path = "../Axe-iOS/A11yAnalysisFramework.xcodeproj"; sourceTree = "<group>"; };
 		0F658B061BC57745000650C3 /* InformativeColor.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InformativeColor.storyboard; sourceTree = "<group>"; };
+		0F8C7A7E1E7B24A400C610C8 /* IACDynamicNotificationsBrokenViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACDynamicNotificationsBrokenViewController_test.m; sourceTree = "<group>"; };
+		0F8C7A7F1E7B24A400C610C8 /* IACDynamicNotificationsFixedViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACDynamicNotificationsFixedViewController_test.m; sourceTree = "<group>"; };
+		0F8C7A811E7B24A400C610C8 /* IACFormValidationBrokenViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACFormValidationBrokenViewController_test.m; sourceTree = "<group>"; };
+		0F8C7A821E7B24A400C610C8 /* IACFormValidationFixedViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACFormValidationFixedViewController_test.m; sourceTree = "<group>"; };
+		0F8C7A841E7B24A400C610C8 /* IACHintBrokenViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACHintBrokenViewController_test.m; sourceTree = "<group>"; };
+		0F8C7A851E7B24A400C610C8 /* IACHintFixedViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACHintFixedViewController_test.m; sourceTree = "<group>"; };
+		0F8C7A871E7B24A400C610C8 /* IACLabelBrokenViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACLabelBrokenViewController_test.m; sourceTree = "<group>"; };
+		0F8C7A881E7B24A400C610C8 /* IACLabelFixedViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACLabelFixedViewController_test.m; sourceTree = "<group>"; };
+		0F8C7A891E7B24A400C610C8 /* SimpleAccessibilityTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleAccessibilityTest.swift; sourceTree = "<group>"; };
+		0F8C7A8B1E7B24A400C610C8 /* IACModalDialogBrokenViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACModalDialogBrokenViewController_test.m; sourceTree = "<group>"; };
+		0F8C7A8C1E7B24A400C610C8 /* IACModalDialogFixedViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACModalDialogFixedViewController_test.m; sourceTree = "<group>"; };
+		0F8C7A8E1E7B24A400C610C8 /* IACTraitsBrokenViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACTraitsBrokenViewController_test.m; sourceTree = "<group>"; };
+		0F8C7A8F1E7B24A400C610C8 /* IACTraitsFixedViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACTraitsFixedViewController_test.m; sourceTree = "<group>"; };
+		0F8C7A911E7B24A400C610C8 /* IACUpdatingContentBrokenViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACUpdatingContentBrokenViewController_test.m; sourceTree = "<group>"; };
+		0F8C7A921E7B24A400C610C8 /* IACUpdatingContentFixedViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACUpdatingContentFixedViewController_test.m; sourceTree = "<group>"; };
+		0F8C7A931E7B24A400C610C8 /* DEQAsserts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEQAsserts.h; sourceTree = "<group>"; };
+		0F8C7A941E7B24A400C610C8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FEB4B8C1AC9C73300F372F8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0FEB4B8E1AC9C73E00F372F8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0FFBA0B81E79C2E6001F9C2E /* DequeUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DequeUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FFBA0BC1E79C2E6001F9C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FFBA0C61E79CB98001F9C2E /* SimpleAccessibilityTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleAccessibilityTest.swift; sourceTree = "<group>"; };
 		A9D013BF18A2DD4700DC6496 /* Accessibility 101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accessibility 101.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D013C218A2DD4700DC6496 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9D013C418A2DD4700DC6496 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -225,19 +241,6 @@
 		EEAFD3131B272BF200E23EAB /* IACAboutDequeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IACAboutDequeViewController.h; path = "DequeU/Introduction Files/IACAboutDequeViewController.h"; sourceTree = "<group>"; };
 		EEAFD3141B272BF200E23EAB /* IACAboutDequeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IACAboutDequeViewController.m; path = "DequeU/Introduction Files/IACAboutDequeViewController.m"; sourceTree = "<group>"; };
 		EEAFD33B1B2731E400E23EAB /* DequeU-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DequeU-Info.plist"; sourceTree = "<group>"; };
-		EEAFD3521B27348A00E23EAB /* IACDynamicNotificationsBrokenViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACDynamicNotificationsBrokenViewController_test.m; sourceTree = "<group>"; };
-		EEAFD3531B27348A00E23EAB /* IACDynamicNotificationsFixedViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACDynamicNotificationsFixedViewController_test.m; sourceTree = "<group>"; };
-		EEAFD3551B27348A00E23EAB /* IACFormValidationBrokenViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACFormValidationBrokenViewController_test.m; sourceTree = "<group>"; };
-		EEAFD3561B27348A00E23EAB /* IACFormValidationFixedViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACFormValidationFixedViewController_test.m; sourceTree = "<group>"; };
-		EEAFD3581B27348A00E23EAB /* IACHintBrokenViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACHintBrokenViewController_test.m; sourceTree = "<group>"; };
-		EEAFD3591B27348A00E23EAB /* IACHintFixedViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACHintFixedViewController_test.m; sourceTree = "<group>"; };
-		EEAFD35B1B27348A00E23EAB /* IACLabelBrokenViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACLabelBrokenViewController_test.m; sourceTree = "<group>"; };
-		EEAFD35C1B27348A00E23EAB /* IACLabelFixedViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACLabelFixedViewController_test.m; sourceTree = "<group>"; };
-		EEAFD35E1B27348A00E23EAB /* IACModalDialogBrokenViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACModalDialogBrokenViewController_test.m; sourceTree = "<group>"; };
-		EEAFD35F1B27348A00E23EAB /* IACModalDialogFixedViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACModalDialogFixedViewController_test.m; sourceTree = "<group>"; };
-		EEAFD3611B27348A00E23EAB /* IACTraitsBrokenViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACTraitsBrokenViewController_test.m; sourceTree = "<group>"; };
-		EEAFD3621B27348A00E23EAB /* IACTraitsFixedViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACTraitsFixedViewController_test.m; sourceTree = "<group>"; };
-		EEAFD3701B2738D000E23EAB /* DEQAsserts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEQAsserts.h; path = DequeUTests/DEQAsserts.h; sourceTree = SOURCE_ROOT; };
 		EEAFD3711B27391E00E23EAB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EEAFD3721B27391E00E23EAB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EEAFD3781B274C0B00E23EAB /* IACIntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IACIntroductionViewController.h; path = "DequeU/Introduction Files/IACIntroductionViewController.h"; sourceTree = "<group>"; };
@@ -280,8 +283,6 @@
 		EEDE4E0E1B38AEBF003B6362 /* IACUpdatingContentFixedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IACUpdatingContentFixedViewController.h; path = "DequeU/Advanced Demos/Updating Content/IACUpdatingContentFixedViewController.h"; sourceTree = SOURCE_ROOT; };
 		EEDE4E0F1B38AEBF003B6362 /* IACUpdatingContentFixedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IACUpdatingContentFixedViewController.m; path = "DequeU/Advanced Demos/Updating Content/IACUpdatingContentFixedViewController.m"; sourceTree = SOURCE_ROOT; };
 		EEDE4E101B38AEBF003B6362 /* UpdatingContent.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = UpdatingContent.storyboard; path = "DequeU/Advanced Demos/Updating Content/UpdatingContent.storyboard"; sourceTree = SOURCE_ROOT; };
-		EEDE4E241B3AF3E2003B6362 /* IACUpdatingContentBrokenViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IACUpdatingContentBrokenViewController_test.m; path = "DequeUTests/Categories/Updating Content/IACUpdatingContentBrokenViewController_test.m"; sourceTree = SOURCE_ROOT; };
-		EEDE4E261B3AF3F6003B6362 /* IACUpdatingContentFixedViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IACUpdatingContentFixedViewController_test.m; path = "DequeUTests/Categories/Updating Content/IACUpdatingContentFixedViewController_test.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -347,6 +348,94 @@
 			name = Introduction;
 			sourceTree = "<group>";
 		};
+		0F8C7A7B1E7B24A400C610C8 /* DequeUTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F8C7A7C1E7B24A400C610C8 /* Categories */,
+				0F8C7A931E7B24A400C610C8 /* DEQAsserts.h */,
+				0F8C7A941E7B24A400C610C8 /* Info.plist */,
+			);
+			path = DequeUTests;
+			sourceTree = "<group>";
+		};
+		0F8C7A7C1E7B24A400C610C8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0F8C7A7D1E7B24A400C610C8 /* Dynamic Notifications */,
+				0F8C7A801E7B24A400C610C8 /* Form Validation */,
+				0F8C7A831E7B24A400C610C8 /* Hints */,
+				0F8C7A861E7B24A400C610C8 /* Labels */,
+				0F8C7A8A1E7B24A400C610C8 /* Modal Dialog */,
+				0F8C7A8D1E7B24A400C610C8 /* Traits */,
+				0F8C7A901E7B24A400C610C8 /* Updating Content */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		0F8C7A7D1E7B24A400C610C8 /* Dynamic Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				0F8C7A7E1E7B24A400C610C8 /* IACDynamicNotificationsBrokenViewController_test.m */,
+				0F8C7A7F1E7B24A400C610C8 /* IACDynamicNotificationsFixedViewController_test.m */,
+			);
+			path = "Dynamic Notifications";
+			sourceTree = "<group>";
+		};
+		0F8C7A801E7B24A400C610C8 /* Form Validation */ = {
+			isa = PBXGroup;
+			children = (
+				0F8C7A811E7B24A400C610C8 /* IACFormValidationBrokenViewController_test.m */,
+				0F8C7A821E7B24A400C610C8 /* IACFormValidationFixedViewController_test.m */,
+			);
+			path = "Form Validation";
+			sourceTree = "<group>";
+		};
+		0F8C7A831E7B24A400C610C8 /* Hints */ = {
+			isa = PBXGroup;
+			children = (
+				0F8C7A841E7B24A400C610C8 /* IACHintBrokenViewController_test.m */,
+				0F8C7A851E7B24A400C610C8 /* IACHintFixedViewController_test.m */,
+			);
+			path = Hints;
+			sourceTree = "<group>";
+		};
+		0F8C7A861E7B24A400C610C8 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				0F8C7A871E7B24A400C610C8 /* IACLabelBrokenViewController_test.m */,
+				0F8C7A881E7B24A400C610C8 /* IACLabelFixedViewController_test.m */,
+				0F8C7A891E7B24A400C610C8 /* SimpleAccessibilityTest.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		0F8C7A8A1E7B24A400C610C8 /* Modal Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				0F8C7A8B1E7B24A400C610C8 /* IACModalDialogBrokenViewController_test.m */,
+				0F8C7A8C1E7B24A400C610C8 /* IACModalDialogFixedViewController_test.m */,
+			);
+			path = "Modal Dialog";
+			sourceTree = "<group>";
+		};
+		0F8C7A8D1E7B24A400C610C8 /* Traits */ = {
+			isa = PBXGroup;
+			children = (
+				0F8C7A8E1E7B24A400C610C8 /* IACTraitsBrokenViewController_test.m */,
+				0F8C7A8F1E7B24A400C610C8 /* IACTraitsFixedViewController_test.m */,
+			);
+			path = Traits;
+			sourceTree = "<group>";
+		};
+		0F8C7A901E7B24A400C610C8 /* Updating Content */ = {
+			isa = PBXGroup;
+			children = (
+				0F8C7A911E7B24A400C610C8 /* IACUpdatingContentBrokenViewController_test.m */,
+				0F8C7A921E7B24A400C610C8 /* IACUpdatingContentFixedViewController_test.m */,
+			);
+			path = "Updating Content";
+			sourceTree = "<group>";
+		};
 		0FEB4C211ACB0F5000F372F8 /* DequeU */ = {
 			isa = PBXGroup;
 			children = (
@@ -385,29 +474,11 @@
 			name = DequeU;
 			sourceTree = "<group>";
 		};
-		0FFBA0B91E79C2E6001F9C2E /* DequeUTests */ = {
-			isa = PBXGroup;
-			children = (
-				EEAFD3701B2738D000E23EAB /* DEQAsserts.h */,
-				EEAFD3501B27348A00E23EAB /* Categories */,
-				EEAFD35A1B27348A00E23EAB /* Labels */,
-				EEAFD3571B27348A00E23EAB /* Hints */,
-				EEAFD3601B27348A00E23EAB /* Traits */,
-				EEAFD3511B27348A00E23EAB /* Dynamic Notifications */,
-				EEAFD35D1B27348A00E23EAB /* Modal Dialog */,
-				EEAFD3541B27348A00E23EAB /* Form Validation */,
-				EEDE4E231B3AF36C003B6362 /* Updating Content */,
-				0FFBA0BC1E79C2E6001F9C2E /* Info.plist */,
-			);
-			name = DequeUTests;
-			path = "Accessibility 101Tests";
-			sourceTree = "<group>";
-		};
 		A9D013B618A2DD4700DC6496 = {
 			isa = PBXGroup;
 			children = (
+				0F8C7A7B1E7B24A400C610C8 /* DequeUTests */,
 				0FEB4C211ACB0F5000F372F8 /* DequeU */,
-				0FFBA0B91E79C2E6001F9C2E /* DequeUTests */,
 				A9D013C118A2DD4700DC6496 /* Frameworks */,
 				A9D013C018A2DD4700DC6496 /* Products */,
 			);
@@ -588,75 +659,6 @@
 			path = Music;
 			sourceTree = "<group>";
 		};
-		EEAFD3501B27348A00E23EAB /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Categories;
-			path = DequeUTests/Categories;
-			sourceTree = SOURCE_ROOT;
-		};
-		EEAFD3511B27348A00E23EAB /* Dynamic Notifications */ = {
-			isa = PBXGroup;
-			children = (
-				EEAFD3521B27348A00E23EAB /* IACDynamicNotificationsBrokenViewController_test.m */,
-				EEAFD3531B27348A00E23EAB /* IACDynamicNotificationsFixedViewController_test.m */,
-			);
-			name = "Dynamic Notifications";
-			path = "../DequeUTests/Categories/Dynamic Notifications";
-			sourceTree = "<group>";
-		};
-		EEAFD3541B27348A00E23EAB /* Form Validation */ = {
-			isa = PBXGroup;
-			children = (
-				EEAFD3551B27348A00E23EAB /* IACFormValidationBrokenViewController_test.m */,
-				EEAFD3561B27348A00E23EAB /* IACFormValidationFixedViewController_test.m */,
-			);
-			name = "Form Validation";
-			path = "../DequeUTests/Categories/Form Validation";
-			sourceTree = "<group>";
-		};
-		EEAFD3571B27348A00E23EAB /* Hints */ = {
-			isa = PBXGroup;
-			children = (
-				EEAFD3581B27348A00E23EAB /* IACHintBrokenViewController_test.m */,
-				EEAFD3591B27348A00E23EAB /* IACHintFixedViewController_test.m */,
-			);
-			name = Hints;
-			path = ../DequeUTests/Categories/Hints;
-			sourceTree = "<group>";
-		};
-		EEAFD35A1B27348A00E23EAB /* Labels */ = {
-			isa = PBXGroup;
-			children = (
-				0FFBA0C61E79CB98001F9C2E /* SimpleAccessibilityTest.swift */,
-				EEAFD35B1B27348A00E23EAB /* IACLabelBrokenViewController_test.m */,
-				EEAFD35C1B27348A00E23EAB /* IACLabelFixedViewController_test.m */,
-			);
-			name = Labels;
-			path = ../DequeUTests/Categories/Labels;
-			sourceTree = "<group>";
-		};
-		EEAFD35D1B27348A00E23EAB /* Modal Dialog */ = {
-			isa = PBXGroup;
-			children = (
-				EEAFD35E1B27348A00E23EAB /* IACModalDialogBrokenViewController_test.m */,
-				EEAFD35F1B27348A00E23EAB /* IACModalDialogFixedViewController_test.m */,
-			);
-			name = "Modal Dialog";
-			path = "../DequeUTests/Categories/Modal Dialog";
-			sourceTree = "<group>";
-		};
-		EEAFD3601B27348A00E23EAB /* Traits */ = {
-			isa = PBXGroup;
-			children = (
-				EEAFD3611B27348A00E23EAB /* IACTraitsBrokenViewController_test.m */,
-				EEAFD3621B27348A00E23EAB /* IACTraitsFixedViewController_test.m */,
-			);
-			name = Traits;
-			path = ../DequeUTests/Categories/Traits;
-			sourceTree = "<group>";
-		};
 		EEAFD3981B274CE600E23EAB /* Nested A11y */ = {
 			isa = PBXGroup;
 			children = (
@@ -696,16 +698,6 @@
 			);
 			name = "Updating Content Demo";
 			path = "DequeU/Basic Demos/Top Bar Contrast";
-			sourceTree = "<group>";
-		};
-		EEDE4E231B3AF36C003B6362 /* Updating Content */ = {
-			isa = PBXGroup;
-			children = (
-				EEDE4E241B3AF3E2003B6362 /* IACUpdatingContentBrokenViewController_test.m */,
-				EEDE4E261B3AF3F6003B6362 /* IACUpdatingContentFixedViewController_test.m */,
-			);
-			name = "Updating Content";
-			path = ../iosFireEyesInstructionsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -835,6 +827,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F8C7AA41E7B24A400C610C8 /* Info.plist in Resources */,
 				0FFBA0C41E79C3CA001F9C2E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -865,21 +858,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FFBA0D21E79D8AF001F9C2E /* IACHintBrokenViewController_test.m in Sources */,
-				0FFBA0D31E79D8AF001F9C2E /* IACHintFixedViewController_test.m in Sources */,
-				0FFBA0D41E79D8AF001F9C2E /* IACTraitsBrokenViewController_test.m in Sources */,
-				0FFBA0D51E79D8AF001F9C2E /* IACTraitsFixedViewController_test.m in Sources */,
-				0FFBA0D61E79D8AF001F9C2E /* IACDynamicNotificationsBrokenViewController_test.m in Sources */,
-				0FFBA0D71E79D8AF001F9C2E /* IACDynamicNotificationsFixedViewController_test.m in Sources */,
-				0FFBA0D81E79D8AF001F9C2E /* IACModalDialogBrokenViewController_test.m in Sources */,
-				0FFBA0D91E79D8AF001F9C2E /* IACModalDialogFixedViewController_test.m in Sources */,
-				0FFBA0DA1E79D8AF001F9C2E /* IACFormValidationBrokenViewController_test.m in Sources */,
-				0FFBA0DB1E79D8AF001F9C2E /* IACFormValidationFixedViewController_test.m in Sources */,
-				0FFBA0DC1E79D8AF001F9C2E /* IACUpdatingContentBrokenViewController_test.m in Sources */,
-				0FFBA0DD1E79D8AF001F9C2E /* IACUpdatingContentFixedViewController_test.m in Sources */,
-				0FFBA0C21E79C3A2001F9C2E /* IACLabelBrokenViewController_test.m in Sources */,
-				0FFBA0C71E79CB98001F9C2E /* SimpleAccessibilityTest.swift in Sources */,
-				0FFBA0C31E79C3A2001F9C2E /* IACLabelFixedViewController_test.m in Sources */,
+				0F8C7A9A1E7B24A400C610C8 /* IACHintFixedViewController_test.m in Sources */,
+				0F8C7AA01E7B24A400C610C8 /* IACTraitsBrokenViewController_test.m in Sources */,
+				0F8C7A9B1E7B24A400C610C8 /* IACLabelBrokenViewController_test.m in Sources */,
+				0F8C7AA11E7B24A400C610C8 /* IACTraitsFixedViewController_test.m in Sources */,
+				0F8C7AA21E7B24A400C610C8 /* IACUpdatingContentBrokenViewController_test.m in Sources */,
+				0F8C7A9F1E7B24A400C610C8 /* IACModalDialogFixedViewController_test.m in Sources */,
+				0F8C7A981E7B24A400C610C8 /* IACFormValidationFixedViewController_test.m in Sources */,
+				0F8C7A9E1E7B24A400C610C8 /* IACModalDialogBrokenViewController_test.m in Sources */,
+				0F8C7A991E7B24A400C610C8 /* IACHintBrokenViewController_test.m in Sources */,
+				0F8C7A951E7B24A400C610C8 /* IACDynamicNotificationsBrokenViewController_test.m in Sources */,
+				0F8C7A961E7B24A400C610C8 /* IACDynamicNotificationsFixedViewController_test.m in Sources */,
+				0F8C7A9D1E7B24A400C610C8 /* SimpleAccessibilityTest.swift in Sources */,
+				0F8C7A971E7B24A400C610C8 /* IACFormValidationBrokenViewController_test.m in Sources */,
+				0F8C7AA31E7B24A400C610C8 /* IACUpdatingContentFixedViewController_test.m in Sources */,
+				0F8C7A9C1E7B24A400C610C8 /* IACLabelFixedViewController_test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -956,11 +949,11 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 2ZZQGXN669;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Accessibility 101Tests/Info.plist";
+				INFOPLIST_FILE = DequeUTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chrismcmeeking.Accessibility-101Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrismcmeeking.DequeUTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -981,11 +974,11 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 2ZZQGXN669;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "Accessibility 101Tests/Info.plist";
+				INFOPLIST_FILE = DequeUTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chrismcmeeking.Accessibility-101Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrismcmeeking.DequeUTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
@@ -1089,6 +1082,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
@@ -1124,6 +1118,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;

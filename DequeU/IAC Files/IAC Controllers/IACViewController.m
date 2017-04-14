@@ -28,8 +28,9 @@ static UIButton* _IACOverlayButton = NULL;
         [_IACOverlayButton setFrame:CGRectMake(0, 0, 30, 21)];
     }
 
-    [AAFMain getInstance];
-    
+    if (DEBUG) {
+        [AAFMain getInstance];
+    }
 }
 
 - (void)viewDidAppear:(BOOL)animated {
