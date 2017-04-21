@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F0DEBF81E79DA0D00B80E96 /* DQA11y.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0DEBF51E79D9C600B80E96 /* DQA11y.framework */; };
 		0F158F2818D223E500B34CC7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F158F2718D223E500B34CC7 /* AudioToolbox.framework */; };
+		0F244C841EA91F990030701B /* DQA11y.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0DEBF51E79D9C600B80E96 /* DQA11y.framework */; };
 		0F658B071BC57745000650C3 /* InformativeColor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F658B061BC57745000650C3 /* InformativeColor.storyboard */; };
 		0F8C7A951E7B24A400C610C8 /* IACDynamicNotificationsBrokenViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A7E1E7B24A400C610C8 /* IACDynamicNotificationsBrokenViewController_test.m */; };
 		0F8C7A961E7B24A400C610C8 /* IACDynamicNotificationsFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A7F1E7B24A400C610C8 /* IACDynamicNotificationsFixedViewController_test.m */; };
@@ -25,7 +26,6 @@
 		0F8C7AA11E7B24A400C610C8 /* IACTraitsFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A8F1E7B24A400C610C8 /* IACTraitsFixedViewController_test.m */; };
 		0F8C7AA21E7B24A400C610C8 /* IACUpdatingContentBrokenViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A911E7B24A400C610C8 /* IACUpdatingContentBrokenViewController_test.m */; };
 		0F8C7AA31E7B24A400C610C8 /* IACUpdatingContentFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A921E7B24A400C610C8 /* IACUpdatingContentFixedViewController_test.m */; };
-		0F8C7AA41E7B24A400C610C8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F8C7A941E7B24A400C610C8 /* Info.plist */; };
 		0FEB4B8D1AC9C73300F372F8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEB4B8C1AC9C73300F372F8 /* CoreData.framework */; };
 		0FEB4B8F1AC9C73E00F372F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEB4B8E1AC9C73E00F372F8 /* SystemConfiguration.framework */; };
 		0FFBA0A61E79C0E0001F9C2E /* A11yAnalysisFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F63002E1E79858A00FAB691 /* A11yAnalysisFramework.framework */; };
@@ -290,6 +290,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F244C841EA91F990030701B /* DQA11y.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -827,7 +828,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F8C7AA41E7B24A400C610C8 /* Info.plist in Resources */,
 				0FFBA0C41E79C3CA001F9C2E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

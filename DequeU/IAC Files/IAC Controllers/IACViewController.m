@@ -9,8 +9,6 @@
 #import <DQA11y/DQA11y.h>
 #import "IACViewController.h"
 #import "IACSplitViewController.h"
-#import <A11yAnalysisFramework/A11yAnalysisFramework.h>
-
 
 #define OVERLAY_IMAGE_NAME @"DequeU_logo_1024px"
 
@@ -26,10 +24,6 @@ static UIButton* _IACOverlayButton = NULL;
         _IACOverlayButton =  [UIButton buttonWithType:UIButtonTypeCustom];
         [_IACOverlayButton addTarget:[self class] action:@selector(toggleOverlayOn) forControlEvents:UIControlEventTouchUpInside];
         [_IACOverlayButton setFrame:CGRectMake(0, 0, 30, 21)];
-    }
-
-    if (DEBUG) {
-        [AAFMain getInstance];
     }
 }
 

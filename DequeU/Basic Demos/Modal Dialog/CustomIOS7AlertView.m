@@ -122,8 +122,8 @@ CGFloat buttonSpacerHeight = 0;
     [UIView animateWithDuration:0.2f delay:0.0 options:UIViewAnimationOptionCurveEaseInOut
 					 animations:^{
 						 self.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.4f];
-                         dialogView.layer.opacity = 1.0f;
-                         dialogView.layer.transform = CATransform3DMakeScale(1, 1, 1);
+                         self.dialogView.layer.opacity = 1.0f;
+                         self.dialogView.layer.transform = CATransform3DMakeScale(1, 1, 1);
 					 }
 					 completion:NULL
      ];
@@ -208,8 +208,8 @@ CGFloat buttonSpacerHeight = 0;
     [UIView animateWithDuration:0.2f delay:0.0 options:UIViewAnimationOptionTransitionNone
 					 animations:^{
 						 self.backgroundColor = [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.0f];
-                         dialogView.layer.transform = CATransform3DMakeScale(0.6f, 0.6f, 1.0);
-                         dialogView.layer.opacity = 0.0f;
+                         self->dialogView.layer.transform = CATransform3DMakeScale(0.6f, 0.6f, 1.0);
+                         self->dialogView.layer.opacity = 0.0f;
 					 }
 					 completion:^(BOOL finished) {
                          for (UIView *v in [self subviews]) {
