@@ -1,3 +1,6 @@
 [submodule "iOSA11yFramework"]
 	path = iOSA11yFramework
 	url = https://github.com/dequelabs/iOSA11yFramework.git
+[submodule "axeios"]
+	path = axeios
+	url = git@github.com:dequelabs/Axe-iOS.git
