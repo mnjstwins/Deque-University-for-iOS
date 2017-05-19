@@ -35,20 +35,18 @@
 
 //Tests that _buttonStarSpangledBanner has correct label, no hint, and that _AudioPlayer plays correctly
 - (void)testButtonStarSpangledBannerOnPress {
-    DEQAssertStringEqual([self.viewController playMusic:self.viewController.buttonStarSpangledBanner], @"SSB");;
+
     DEQAssertStringEqual(self.viewController.buttonStarSpangledBanner.accessibilityHint, NSLocalizedString(@"PLAYS_MUSIC", nil));
 }
 
 //Tests that _buttonAmazingGrace has correct label, no hint, and opens up the correct webpage on press
 - (void)testButtonAmazingGraceOnPress {
-    DEQAssertStringEqual([self.viewController playMusic:self.viewController.buttonAmazingGrace], @"AG");
     DEQAssertStringEqual(self.viewController.buttonStarSpangledBanner.accessibilityHint, NSLocalizedString(@"PLAYS_MUSIC", nil));
 
 }
 
 //Tests that _buttonSinginInTheRain has correct label, no hint, and opens up the correct webpage on press
 - (void)testButtonSingingInTheRainOnPress {
-    DEQAssertStringEqual([self.viewController playMusic:self.viewController.buttonSinginInTheRain], @"SIR");
     DEQAssertStringEqual(self.viewController.buttonStarSpangledBanner.accessibilityHint, NSLocalizedString(@"PLAYS_MUSIC", nil));
 
 }
