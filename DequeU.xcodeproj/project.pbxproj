@@ -32,7 +32,6 @@
 		A9D013C318A2DD4700DC6496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D013C218A2DD4700DC6496 /* Foundation.framework */; };
 		A9D013C518A2DD4700DC6496 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D013C418A2DD4700DC6496 /* CoreGraphics.framework */; };
 		A9D013C718A2DD4700DC6496 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D013C618A2DD4700DC6496 /* UIKit.framework */; };
-		EEA1679D1ECF6A6600562F1E /* testUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA1679C1ECF6A6600562F1E /* testUtils.swift */; };
 		EEAC95FC1B2F45D200EAD565 /* IACModalDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAC95FB1B2F45D200EAD565 /* IACModalDialogViewController.m */; };
 		EEAFD2A71B272A2700E23EAB /* FormsValidation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAFD2A21B272A2700E23EAB /* FormsValidation.storyboard */; };
 		EEAFD2A81B272A2700E23EAB /* IACFormsValidationBrokenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAFD2A41B272A2700E23EAB /* IACFormsValidationBrokenViewController.m */; };
@@ -825,7 +824,6 @@
 				0F8C7A991E7B24A400C610C8 /* IACHintBrokenViewController_test.m in Sources */,
 				0F8C7A951E7B24A400C610C8 /* IACDynamicNotificationsBrokenViewController_test.m in Sources */,
 				0F8C7A961E7B24A400C610C8 /* IACDynamicNotificationsFixedViewController_test.m in Sources */,
-				EEA1679D1ECF6A6600562F1E /* testUtils.swift in Sources */,
 				0F8C7A9D1E7B24A400C610C8 /* SimpleAccessibilityTest.swift in Sources */,
 				0F8C7A971E7B24A400C610C8 /* IACFormValidationBrokenViewController_test.m in Sources */,
 				0F8C7AA31E7B24A400C610C8 /* IACUpdatingContentFixedViewController_test.m in Sources */,
