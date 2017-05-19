@@ -28,8 +28,6 @@
 		0F8C7AA31E7B24A400C610C8 /* IACUpdatingContentFixedViewController_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8C7A921E7B24A400C610C8 /* IACUpdatingContentFixedViewController_test.m */; };
 		0FEB4B8D1AC9C73300F372F8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEB4B8C1AC9C73300F372F8 /* CoreData.framework */; };
 		0FEB4B8F1AC9C73E00F372F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEB4B8E1AC9C73E00F372F8 /* SystemConfiguration.framework */; };
-		0FFBA0A61E79C0E0001F9C2E /* A11yAnalysisFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F63002E1E79858A00FAB691 /* A11yAnalysisFramework.framework */; };
-		0FFBA0AD1E79C166001F9C2E /* A11yAnalysisFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F63002E1E79858A00FAB691 /* A11yAnalysisFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0FFBA0C41E79C3CA001F9C2E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAFD2C21B272A3A00E23EAB /* Storyboard.storyboard */; };
 		A9D013C318A2DD4700DC6496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D013C218A2DD4700DC6496 /* Foundation.framework */; };
 		A9D013C518A2DD4700DC6496 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D013C418A2DD4700DC6496 /* CoreGraphics.framework */; };
@@ -106,20 +104,6 @@
 			remoteGlobalIDString = EECB14801B18F02300809C96;
 			remoteInfo = DQA11yTests;
 		};
-		0F63002D1E79858A00FAB691 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0F6300271E79858A00FAB691 /* A11yAnalysisFramework.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0F1BA74A1BB58A9400B59335;
-			remoteInfo = A11yAnalysisFramework;
-		};
-		0F63002F1E79858A00FAB691 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0F6300271E79858A00FAB691 /* A11yAnalysisFramework.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0F1BA7541BB58A9400B59335;
-			remoteInfo = A11yAnalysisFrameworkTests;
-		};
 		0FFBA0BD1E79C2E6001F9C2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A9D013B718A2DD4700DC6496 /* Project object */;
@@ -136,9 +120,18 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0FFBA0AD1E79C166001F9C2E /* A11yAnalysisFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F724C541ECF6AA00085D742 /* Embeded Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embeded Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -146,7 +139,6 @@
 /* Begin PBXFileReference section */
 		0F0DEBEC1E79D9C600B80E96 /* DQA11y.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DQA11y.xcodeproj; path = iOSA11yFramework/DQA11y.xcodeproj; sourceTree = "<group>"; };
 		0F158F2718D223E500B34CC7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		0F6300271E79858A00FAB691 /* A11yAnalysisFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = A11yAnalysisFramework.xcodeproj; path = "../Axe-iOS/A11yAnalysisFramework.xcodeproj"; sourceTree = "<group>"; };
 		0F658B061BC57745000650C3 /* InformativeColor.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InformativeColor.storyboard; sourceTree = "<group>"; };
 		0F8C7A7E1E7B24A400C610C8 /* IACDynamicNotificationsBrokenViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACDynamicNotificationsBrokenViewController_test.m; sourceTree = "<group>"; };
 		0F8C7A7F1E7B24A400C610C8 /* IACDynamicNotificationsFixedViewController_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IACDynamicNotificationsFixedViewController_test.m; sourceTree = "<group>"; };
@@ -298,7 +290,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FFBA0A61E79C0E0001F9C2E /* A11yAnalysisFramework.framework in Frameworks */,
 				0F0DEBF81E79DA0D00B80E96 /* DQA11y.framework in Frameworks */,
 				0FEB4B8F1AC9C73E00F372F8 /* SystemConfiguration.framework in Frameworks */,
 				0FEB4B8D1AC9C73300F372F8 /* CoreData.framework in Frameworks */,
@@ -317,15 +308,6 @@
 			children = (
 				0F0DEBF51E79D9C600B80E96 /* DQA11y.framework */,
 				0F0DEBF71E79D9C600B80E96 /* DQA11yTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0F6300281E79858A00FAB691 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0F63002E1E79858A00FAB691 /* A11yAnalysisFramework.framework */,
-				0F6300301E79858A00FAB691 /* A11yAnalysisFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -497,7 +479,6 @@
 		A9D013C118A2DD4700DC6496 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0F6300271E79858A00FAB691 /* A11yAnalysisFramework.xcodeproj */,
 				0F0DEBEC1E79D9C600B80E96 /* DQA11y.xcodeproj */,
 				0FEB4B8E1AC9C73E00F372F8 /* SystemConfiguration.framework */,
 				0FEB4B8C1AC9C73300F372F8 /* CoreData.framework */,
@@ -711,6 +692,7 @@
 				0FFBA0B41E79C2E6001F9C2E /* Sources */,
 				0FFBA0B51E79C2E6001F9C2E /* Frameworks */,
 				0FFBA0B61E79C2E6001F9C2E /* Resources */,
+				0F724C541ECF6AA00085D742 /* Embeded Frameworks */,
 			);
 			buildRules = (
 			);
@@ -748,7 +730,7 @@
 			attributes = {
 				CLASSPREFIX = DQ;
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Deque Systems";
 				TargetAttributes = {
 					0FFBA0B71E79C2E6001F9C2E = {
@@ -776,10 +758,6 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 0F6300281E79858A00FAB691 /* Products */;
-					ProjectRef = 0F6300271E79858A00FAB691 /* A11yAnalysisFramework.xcodeproj */;
-				},
-				{
 					ProductGroup = 0F0DEBED1E79D9C600B80E96 /* Products */;
 					ProjectRef = 0F0DEBEC1E79D9C600B80E96 /* DQA11y.xcodeproj */;
 				},
@@ -805,20 +783,6 @@
 			fileType = wrapper.cfbundle;
 			path = DQA11yTests.xctest;
 			remoteRef = 0F0DEBF61E79D9C600B80E96 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0F63002E1E79858A00FAB691 /* A11yAnalysisFramework.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = A11yAnalysisFramework.framework;
-			remoteRef = 0F63002D1E79858A00FAB691 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0F6300301E79858A00FAB691 /* A11yAnalysisFrameworkTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = A11yAnalysisFrameworkTests.xctest;
-			remoteRef = 0F63002F1E79858A00FAB691 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -948,6 +912,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 2ZZQGXN669;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/chrismcmeeking/Repositories/Axe-iOS/**",
+					"$(PROJECT_DIR)",
+				);
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = DequeUTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
@@ -973,6 +941,10 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 2ZZQGXN669;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/chrismcmeeking/Repositories/Axe-iOS/**",
+					"$(PROJECT_DIR)",
+				);
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = DequeUTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
@@ -1070,6 +1042,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};

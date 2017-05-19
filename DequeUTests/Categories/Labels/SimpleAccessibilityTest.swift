@@ -1,5 +1,5 @@
 import XCTest
-import A11yAnalysisFramework
+//import Attest
 
 class SimpleAccessibilityTest: XCTestCase {
 
@@ -15,12 +15,9 @@ class SimpleAccessibilityTest: XCTestCase {
 
         let storyboard: UIStoryboard = UIStoryboard(name: "Storyboard", bundle: nil);
         let viewController = storyboard.instantiateViewController(withIdentifier: "brokenLabel");
-        let view = viewController.view!;
 
-        viewController.viewDidLoad();
+        //viewController.view.forceLoad()
 
-        A11yAssert.that(view)
-            .exceptRule(RuleActiveControls.self)
-            .isAccessible();
+        //Attest.that(viewController: viewController).isAccessible()
     }
 }

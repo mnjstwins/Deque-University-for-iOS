@@ -15,8 +15,7 @@
 @synthesize fishDisplay = _FishDisplay;
 @synthesize imageView = _ImageView;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];    
     return self;
 }
