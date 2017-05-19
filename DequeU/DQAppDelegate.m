@@ -8,12 +8,8 @@
 
 #import "DQAppDelegate.h"
 #import "GAI.h"
-#import <A11yAnalysisFramework/A11yAnalysisFramework.h>
 
 @implementation DQAppDelegate
 
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    [Attest getInstance];
-}
 
 @end
